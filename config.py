@@ -7,11 +7,11 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 @dataclass
 class Config:
     CATEGORIES: List[str] = field(default_factory=lambda: [
-        "Steady Middle-Grounders",
+        "Nice, Properly Spending your money !",
         "High-Value Elites",
-        "Young Spenders",
+        "Sadly, You are Poor !",
         "Conservative Wealthy",
-        "Affluent Influencers",
+        "Blind Spending !",
         "Budget-Conscious Seniors"
     ])
     
